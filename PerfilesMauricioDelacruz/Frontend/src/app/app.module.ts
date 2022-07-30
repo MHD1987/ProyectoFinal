@@ -13,7 +13,7 @@ import { HyssComponent } from './componentes/hyss/hyss.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import {HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -38,8 +38,7 @@ import {HttpClient, HttpClientModule } from '@angular/common/http';
       outerStrokeColor: "#78C000",
       innerStrokeColor: "#C7E596",
       animationDuration: 300,
-    }),
-    HttpClientModule
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
