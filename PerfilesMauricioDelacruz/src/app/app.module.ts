@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { LogosComponent } from './componentes/header/logos/logos.component';
-import { RedesComponent } from './componentes/header/redes/redes.component';
 import { BannerComponent } from './componentes/header/banner/banner.component';
 import { AcercaDeComponent } from './componentes/acercaDe/acercaDe.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
@@ -13,19 +12,20 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { HyssComponent } from './componentes/hyss/hyss.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogosComponent,
-    RedesComponent,
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,
     EducacionComponent,
     HyssComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
